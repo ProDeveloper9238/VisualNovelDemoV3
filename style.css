@@ -1,0 +1,241 @@
+* {
+	margin:0px;
+	padding:0px;
+	font-family:Bahnschrift;
+}
+
+body {
+	background-color:#000000;
+}
+
+
+/*table, tr, td {
+	border:2px solid green;
+	border-collapse:collapse;
+}*/
+
+
+table {
+	height:850px;
+	width:100%;
+}
+
+td {
+	height:50px;
+}
+
+.inventoryTableData {
+	height:100px;
+}
+
+.imagesTableData {
+	height:650px;
+}
+
+.text {
+	height:93px;
+	width:98%;	
+	padding-top:7px;
+	padding-left:1%;
+	padding-right:1%;
+	background-color:#ffffff;
+	font-size:25px;	
+	user-select:none;
+
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+}
+
+.placeForText {
+	height:100px;
+	width:85%;
+}
+
+.nextButton {
+	height:43px;
+	width:50%;
+	padding-top:5px;
+	text-align:center;
+	background-color:#ffffff;
+	font-size:30px;
+	transition:0.2s;
+	user-select:none;
+
+	border-top-right-radius:10px;
+}
+
+.backButton {
+	height:44px;
+	width:50%;
+	padding-top:5px;
+	text-align:center;
+	background-color:#ffffff;
+	font-size:30px;
+	transition:0.2s;
+	user-select:none;
+
+	border-bottom-right-radius:10px;
+}
+
+.nextButton:hover {
+	width:65%;
+	background-color:#52128a;
+	color:white;
+
+	border-bottom-right-radius:10px;
+}
+
+.backButton:hover {
+	width:65%;
+	background-color:#52128a;
+	color:white;
+
+	border-top-right-radius:10px;
+}
+
+.choiceTable {
+	height:50px;
+	width:800px;
+	margin:auto;
+	margin-top:25%;
+}
+
+.choiceTableData {
+	height:50px;
+	width:400px;
+}
+
+.choiceFirst {
+	height:45px;
+	width:300px;
+	margin:auto;
+	padding-top:5px;
+	text-align:center;
+	background-color:#ffffff;
+	font-size:30px;
+	transition:0.2s;
+	user-select:none;
+
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+.choiceSecond {
+	height:45px;
+	width:300px;
+	margin:auto;
+	padding-top:5px;
+	text-align:center;
+	background-color:#ffffff;
+	font-size:30px;
+	transition:0.2s;
+	user-select:none;
+}
+
+.choiceThird {
+	height:45px;
+	width:300px;
+	margin:auto;
+	padding-top:5px;
+	text-align:center;
+	background-color:#ffffff;
+	font-size:30px;
+	transition:0.2s;
+	user-select:none;
+
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.choiceFirst:hover {
+	width:400px;
+	background-color:#52128a;
+	color:white;
+	
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.choiceSecond:hover {
+	width:400px;
+	background-color:#52128a;
+	color:white;
+
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+
+.choiceThird:hover {
+	width:400px;
+	background-color:#52128a;
+	color:white;
+
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+
+.inventoryTable {
+	height:80px;
+	width:50px;
+	border-spacing:3px;
+}
+
+.inventoryTableData {
+	width:50px;
+}
+
+.inventoryItem {
+	width:50px;
+	height:41px;
+	padding-top:9px;
+	text-align:center;
+	background-color:#ffffff;
+	font-size:30px;
+	transition:0.2s;
+	user-select:none;
+	border-radius:10px;
+}
+
+.inventoryItem:hover {
+	height:52px;
+	padding-top:18px;
+	background-color:#52128a;
+	color:white;
+}
+
+.menuTable {
+	height:60px;
+	width:450px;
+	margin-top:40px;
+	margin-left:20px;
+}
+
+.menuTableData {
+	height:60px;
+	width:450px;
+	color:#ffffff;
+	font-size:20px;
+	user-select:none;
+}
+
+.menuButton {
+	height:45px;
+	width:300px;
+	margin:auto;
+	padding-top:5px;
+	border-radius:10px;
+	text-align:center;
+	color:#000000;
+	background-color:#ffffff;
+	font-size:30px;
+	transition:0.2s;
+	user-select:none;
+}
+
+.menuButton:hover {
+	width:400px;
+	background-color:#52128a;
+	color:white;
+}
